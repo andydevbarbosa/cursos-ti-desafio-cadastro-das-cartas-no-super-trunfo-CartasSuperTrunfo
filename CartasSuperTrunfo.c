@@ -36,7 +36,7 @@ int main (){
 
     printf("Carta 1/2:\n A letra do Estado é:%s - O código da cidade é:%s - Nome da Cidade: %s - População Total: %i - O tamanho em área é: %.2f - O PIB é: %.2f - Total de Pontos Turísticos: %i\n\n" , estado , codigo , cidade , populacao , area , pib , p_tutisticos);
 
-
+    //Resultdo Primeira Carta
     printf("Cadastro da carta 2/2:\n"); // Inicio do cadastro das cartas 2/2
 
     //Variáveis Segunda Carta
@@ -69,6 +69,7 @@ int main (){
     printf("Digite o número de pontos turísticos: \n ");
     scanf("%i", &p_tutisticos2);
 
+    //Resultado Segunda Carta
     printf("Carta 2/2:\n A letra do Estado é:%s - O código da cidade é:%s - Nome da Cidade: %s - População Total: %i - O tamanho em área é: %.2f - O PIB é: %.2f - Total de Pontos Turísticos: %i\n\n" , estado2 , codigo2 , cidade2 , populacao2 , area2 , pib2 , p_tutisticos2);
 
     return 0;
